@@ -1,0 +1,15 @@
+# Core dependencies for Nanonets OCR Local Runner
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.36.0
+pillow>=9.0.0
+accelerate>=0.20.0
+
+# Optional but recommended for better performance
+flash-attn>=2.0.0  # For flash attention (GPU only)
+bitsandbytes>=0.41.0  # For 8-bit quantization
+
+# Additional utilities
+numpy>=1.21.0
+requests>=2.25.0
+tqdm>=4.62.0
